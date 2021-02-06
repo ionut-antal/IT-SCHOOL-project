@@ -402,7 +402,7 @@ button .fa-bars {
 }
 
 .subtitle-down {
-  margin-bottom:5rem;
+  margin-bottom: 5rem;
 }
 
 .tabel-curs {
@@ -417,8 +417,6 @@ button .fa-bars {
 .tabel-curs span {
   font-size: 1.8rem;
 }
-
-
 
 .line1 {
   background-color: #101d42;
@@ -449,12 +447,150 @@ button .fa-bars {
   bottom: 8rem;
 }
 
-
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   .image-center {
     margin-top: 8rem;
   }
   .subtitle-down {
-    margin-bottom:unset;
+    margin-bottom: unset;
   }
+}
+
+/* start section 10 */
+
+.section10 .section-subtitle-n p {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.section10 .section-subtitle-n h2 {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.wrap-form {
+  display: flex;
+  padding-bottom: 7rem;
+}
+
+.all {
+  padding: 2rem 0.5rem;
+  font-size: 1.8rem;
+  border: 1px solid rgba(55, 56, 49, 0.171);
+  border-radius: 3px;
+}
+
+.first {
+  width: 45rem;
+}
+
+.second {
+  width: 45rem;
+}
+
+.third {
+  flex: 1;
+  background-color: #2bb686;
+  color: #ffffff;
+  border: 1px solid #2bb686;
+}
+
+/* last section */
+
+.last-section {
+  padding: 8rem 0 3rem;
+  background-color: #101d42;
+  color: #dfedf5;
+}
+
+.last-section h3 {
+  padding-bottom: 3rem;
+  color: orange;
+}
+
+h3.padds {
+  padding-left: 1rem;
+}
+
+.border-lefts p {
+  padding-left: 1rem;
+}
+
+h3.padd {
+  padding-left: 1rem;
+}
+
+.border-lefted p {
+  padding-left: 1rem;
+}
+
+.border-lefted {
+  position: relative;
+}
+
+.border-lefted::before {
+  content: "";
+  height: 100%;
+  width: 1px;
+  position: absolute;
+
+  background-color: #ffffff;
+}
+
+.border-lefted p img {
+  height: 1em;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.center-text {
+  text-align: center;
+  padding: 6rem 0 2rem;
+}
+
+.center-text a {
+  font-size: 1.8rem;
+}
+
+.center-text span {
+  margin-left: 4px;
+  margin-right: 6px;
+}
+
+.center-text .fa-facebook-square {
+  color: #3b5998;
+}
+
+.center-text .fa-twitter {
+  color: #4099ff;
+}
+
+.new-border::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+}
+
+.newborder {
+  position: relative;
+}
+
+.newborder::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  position: absolute;
+
+  border: 1px dotted #4d4d4d;
+}
+
+footer p {
+  text-align: center;
+  padding: 3rem 0 1rem;
+}
+
+.last-section {
+  overflow: hidden;
 }
