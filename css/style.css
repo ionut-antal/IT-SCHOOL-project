@@ -594,3 +594,25 @@ footer p {
 .last-section {
   overflow: hidden;
 }
+
+.comment .fa {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  font-size: 5rem;
+  color: rgba(3, 56, 92, 0.726);
+}
+
+@media (max-width: 1024px) {
+  .first {
+    max-width: 39%;
+  }
+
+  .second {
+    max-width: 39%;
+  }
+
+  .border-lefted {
+    padding-top: 3.2rem;
+  }
+}
